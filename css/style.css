@@ -48,3 +48,17 @@ header {
     font-size: 14px;
     font-weight: 300;
 }
+
+#vendas {
+    padding: 40px 10px;
+}
+
+.card {
+    background-color: rgba(40, 49, 66, 1);
+}
+
+.container-card {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
