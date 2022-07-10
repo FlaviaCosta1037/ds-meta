@@ -85,3 +85,30 @@ header {
     padding: 0 20px;
     font-size: 18px;
 }
+
+table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card td {
+    padding: 0 31px;
+
+}
+
+thead {
+    padding: 15px;
+}
+
+tbody {
+    width: 100%;
+    margin: 0;
+    padding: 29px 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #242C3B;
+    border-top: 1px solid #5F6E82;
+}
