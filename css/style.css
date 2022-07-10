@@ -55,10 +55,17 @@ header {
 
 .card {
     background-color: rgba(40, 49, 66, 1);
+    border-radius: 10px;
 }
 
 .container-card {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.card h2 {
+    padding-top: 32px;
+    padding-left: 16px;
+    color: rgba(103, 111, 255, 1)
 }
