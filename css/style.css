@@ -66,6 +66,8 @@ header {
 }
 
 .titulo-vendas {
+    max-width: 100%;
+    margin-left: 16px;
     color: rgba(103, 111, 255, 1);
     font-size: 24px;
     margin-bottom: 20px;
@@ -104,15 +106,26 @@ thead {
 
 tbody {
     width: 100%;
-    padding: 29px 96px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #242C3B;
 }
 
-tr {
-
+.dados-1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     padding: 29px 0;
+    background: #242C3B;
+    border-top: 1px solid #5F6E82;
+}
+
+.dados-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 29px 0;
+    background: #283142;
     border-top: 1px solid #5F6E82;
 }
