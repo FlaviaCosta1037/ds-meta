@@ -148,3 +148,36 @@ nth-child(odd) são mais escuros. */
     display: flex;
     justify-content: center;
 }
+
+/*Classe para desaparecer a coluna de data*/
+.show-576 {
+    display: none;
+}
+
+.show-992 {
+    display: none;
+}
+
+/*Comando Mediaquery. Configuração para que a partir da largura 576px e 992px que vai valer o que escrever dentro do media
+ou seja, o display vai aparecer. Display: table-cell é a responsividade da tela do celular*/
+@media(min-width: 576px) {
+    .show-576 {
+        display: table-cell;
+    }
+    .card {
+        padding: 35px;
+    }
+
+    .dsmeta-sales-table tbody tr {
+        height: 55px;
+    }
+    .dsmeta-sales-table tbody {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 992px) {
+    .show-992 {
+        display: table-cell;
+    }
+}
