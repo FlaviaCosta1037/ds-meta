@@ -7,8 +7,9 @@
     padding: 0;
 }
 
-body, html {
-background-color: #000;
+body,
+html {
+    background-color: #000;
     color: #ffff;
 }
 
@@ -41,7 +42,7 @@ header {
 .container-logo h1 {
     margin-top: 15px;
     font-size: 24px;
-    
+
 }
 
 .container-logo p {
@@ -115,7 +116,7 @@ header {
 }
 
 /*Ao passar o mouse em cima das tabelas ocasiona um efeito*/
-.dsmeta-sales-table tbody tr:hover > td {
+.dsmeta-sales-table tbody tr:hover>td {
     background-color: #384459;
 }
 
@@ -123,6 +124,27 @@ header {
 /*Lê-se class dsmeta-sales-table tbody direcionado a tr, os filhos impares
 nth-child(odd) são mais escuros. */
 
-.dsmeta-sales-table tbody tr:nth-child(odd){
+.dsmeta-sales-table tbody tr:nth-child(odd) {
     background-color: #242c3b;
+}
+
+.dsmeta-red-btn {
+    height: 45px;
+    width: 45px;
+    background: rgba(255, 107, 114, 0.1);
+    border: 1px solid #ff6b72;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dsmeta-red-btn img {
+    width: 19px;
+}
+
+.dsmeta-red-btn-container {
+    display: flex;
+    justify-content: center;
 }
